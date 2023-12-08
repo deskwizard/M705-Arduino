@@ -1,0 +1,34 @@
+Mouse:
+
+Microcontroller		AVR Atmega168PA
+Wireless IC		Nordic NRF24L01+
+
+Programming pads (top row towards buttons, bottom row towards batteries
+(same pinout for installed programming header
+
+
+SCK	MISO	MOSI	SS
+VCC	GND	Reset	VBAT
+
+VCC (~2.2V) is switched after the DC-DC boost converter
+VBAT	~1.5V (AA battery) 2x in parallel
+
+SCK	Yellow
+MISO 	Pink
+MOSI	Purple
+SS	Orange
+Reset	Red
+Ground	Brown
+VCC	N/C
+VBAT	N/C
+
+
+Receiver:
+
+Receiver is matched to the mouse (tested with another receiver and another mouse and neither worked)
+
+Pictures and info from FCC
+FCC ID# JNZ CU1007
+https://apps.fcc.gov/oetcf/eas/reports/ViewExhibitReport.cfm?mode=Exhibits&RequestTimeout=500&calledFromFrame=N&application_id=O%2B96EMa9%2BAvArZ1IOMeklw%3D%3D&fcc_id=JNZCU0007
+
+Microcontroller		Nordic NRF24 (variant undetermined, does USB somehow)
