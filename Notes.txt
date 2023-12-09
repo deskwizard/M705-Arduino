@@ -1,6 +1,6 @@
 Mouse:
 
-Microcontroller		AVR Atmega168PA
+Microcontroller		Atmel AVR Atmega168PA
 Wireless IC		Nordic NRF24L01+
 
 Programming pads (top row towards buttons, bottom row towards batteries
@@ -10,8 +10,8 @@ Programming pads (top row towards buttons, bottom row towards batteries
 SCK	MISO	MOSI	SS
 VCC	GND	Reset	VBAT
 
-VCC (~2.2V) is switched after the DC-DC boost converter
-VBAT	~1.5V (AA battery) 2x in parallel
+VCC 	~2.2V (Through the On/Off switch)
+VBAT	~1.5V (AA battery), 2x in parallel
 
 SCK	Yellow
 MISO 	Pink
